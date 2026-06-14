@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+    modId = "raidmod"
+    version = "1.0.0"
+    displayName = "Raid Mod"
+    description = '''
+    Yağmacı baskın modu: 49. günde uyarı, 50. günde baskın.
+    99. günde uyarı, 100. günde Kötü Kehanet V ordusu gelir!
+    '''
+
+[[dependencies.raidmod]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[21.1,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.raidmod]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "[1.21.1,1.22)"
+    ordering = "NONE"
+    side = "BOTH"
